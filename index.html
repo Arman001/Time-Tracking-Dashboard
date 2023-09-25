@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/js/index.js" defer></script>
+  </head>
+  <body>
+    <main class="dashboard">
+      <div class="dashboard__profile">
+        <div class="dashboard__user">
+          <img
+            src="/images/image-jeremy.png"
+            alt=""
+            class="dashboard__userpic"
+          />
+          <div class="dashboard__userinfo">
+            <span>Report for</span>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+
+        <div class="dashboard__controls">
+          <button id="dailyButton" class="active--button">Daily</button>
+          <button id="weeklyButton">Weekly</button>
+          <button id="monthlyButton">Monthly</button>
+        </div>
+      </div>
+
+      <div class="dashboard__element work--bg">
+        <div class="dashboard__element-img work--img"></div>
+        <div class="dashboard__figures">
+          <div class="dashboard__label">
+            <h3>Work</h3>
+            <div class="ellipsis__img"></div>
+          </div>
+          <div class="dashboard__data">
+            <h1 class="dashboard__current"></h1>
+            <p class="dashboard__past"></p>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard__element play--bg">
+        <div class="dashboard__element-img play--img"></div>
+        <div class="dashboard__figures">
+          <div class="dashboard__label">
+            <h3>Play</h3>
+            <div class="ellipsis__img"></div>
+            
+          </div>
+          <div class="dashboard__data">
+            <h1 class="dashboard__current"></h1>
+            <p class="dashboard__past"></p>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard__element study--bg">
+        <div class="dashboard__element-img study--img"></div>
+        <div class="dashboard__figures">
+          <div class="dashboard__label">
+            <h3>Study</h3>
+            <div class="ellipsis__img"></div>
+            
+          </div>
+          <div class="dashboard__data">
+            <h1 class="dashboard__current"></h1>
+            <p class="dashboard__past"></p>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard__element exercise--bg">
+        <div class="dashboard__element-img exercise--img"></div>
+        <div class="dashboard__figures">
+          <div class="dashboard__label">
+            <h3>Exercise</h3>
+            <div class="ellipsis__img"></div>
+            
+          </div>
+          <div class="dashboard__data">
+            <h1 class="dashboard__current"></h1>
+            <p class="dashboard__past"></p>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard__element social--bg">
+        <div class="dashboard__element-img social--img"></div>
+        <div class="dashboard__figures">
+          <div class="dashboard__label">
+            <h3>Social</h3>
+            <div class="ellipsis__img"></div>
+            
+          </div>
+          <div class="dashboard__data">
+            <h1 class="dashboard__current"></h1>
+            <p class="dashboard__past"></p>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard__element selfcare--bg">
+        <div class="dashboard__element-img selfcare--img"></div>
+        <div class="dashboard__figures">
+          <div class="dashboard__label">
+            <h3>SelfCare</h3>
+            <div class="ellipsis__img"></div>
+            
+          </div>
+          <div class="dashboard__data">
+            <h1 class="dashboard__current"></h1>
+            <p class="dashboard__past"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Muhammad Saad</a>.
+      </div>
+    </footer>
+  </body>
+</html>
